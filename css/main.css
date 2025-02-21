@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Jua';
+    src: url('../webfonts/Jua-Regular.ttf') format('truetype');
+}
+
+html {
+    height:100%;
+}
+body {
+    font-family: 'Jua', Arial, sans-serif;
+    background-color:#202020;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    background-image: url("../images/sea-bg.png");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center center;
+    display:flex;
+    margin:0;
+    height:100%;
+}
+main {
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+    background-color: rgba(60, 60, 60, 0.4);
+    padding:40px;
+    max-width:300px;
+    border-radius:10px;
+    margin-bottom:0;
+    animation:fadein 1s;
+}
+img {
+    width:100%;
+    border-radius:5px;
+}
+p {
+    width:100%;
+    text-align:center;
+    font-size: 22px;
+    margin:30px 0;
+}
+audio {
+    margin:auto;
+    width:100%;
+}
+
+#pixabay {
+    font-size: 13px;
+    padding-top:10px;
+    margin:0;
+}
+
+#footer {
+    margin:0;
+    margin-top:10px;
+    margin-bottom:auto;
+    font-size:13px;
+    padding-bottom:20px;
+}
+
+#footer i {
+    color:crimson;
+}
+
+#footer a {
+    color:black;
+    font-weight: bold;
+}
+
+a, a:visited, a:active {
+    color:skyblue;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        max-width:100%;
+        width:100% !important;
+        box-sizing: border-box;
+    }
+  }
+
+@keyframes fadein {
+    0% { opacity:0;}
+	100% { opacity:1;}
+}
