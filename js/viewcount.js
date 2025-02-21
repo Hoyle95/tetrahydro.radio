@@ -1,4 +1,4 @@
-const endpoint = "https://ac.tetrahydro.radio/api/station/TetraHydroRadio";
+const endpoint = "http://ac.tetrahydro.radio/api/station/TetraHydroRadio";
 
 function fetchUniqueViewers() {
   fetch(endpoint)
